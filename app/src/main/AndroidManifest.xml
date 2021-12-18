@@ -9,18 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TikTakToe">
-        <activity android:name=".drawactivity"
-            android:parentActivityName=".MainActivity"
-            android:launchMode="singleTop"/>
-        <activity android:name=".DispMess"
-            android:parentActivityName=".MainActivity"
-            android:launchMode="singleTop"/>
-        <activity android:name=".DisplayMessage"
-            android:parentActivityName=".MainActivity"
-            android:launchMode="singleTop"/>
-        <activity android:name=".MainActivity"
-            android:parentActivityName=".Details"
-            android:launchMode="singleTop"/>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".drawactivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DispMess"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DisplayMessage"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Details" />
         <activity android:name=".Details">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
