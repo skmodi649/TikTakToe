@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1546875" />
+        <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout-w936dp/activity_login.xml" value="0.13524590163934427" />
         <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout/activity_details.xml" value="0.264" />
         <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout/activity_disp_mess.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout/activity_display_message.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout/activity_drawactivity.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Surmo/AndroidStudioProjects/TikTakToe/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
       </map>
     </option>
