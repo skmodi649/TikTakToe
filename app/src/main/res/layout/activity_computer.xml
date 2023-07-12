@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".computer">
 
@@ -28,9 +29,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="0"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="0" />
         <Button
             android:id="@+id/Button1"
@@ -38,9 +39,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="1" />
         <Button
             android:id="@+id/Button2"
@@ -48,9 +49,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="2"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="2" />
     </LinearLayout>
     <LinearLayout
@@ -64,9 +65,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="3"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="3" />
         <Button
             android:id="@+id/Button4"
@@ -74,9 +75,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="4"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="4" />
         <Button
             android:id="@+id/Button5"
@@ -84,9 +85,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="5"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="5" />
     </LinearLayout>
     <LinearLayout
@@ -100,9 +101,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="6"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="6" />
         <Button
             android:id="@+id/Button7"
@@ -110,9 +111,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="7"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="7" />
         <Button
             android:id="@+id/Button8"
@@ -120,9 +121,9 @@
             android:layout_height="90dp"
             android:layout_margin="8dp"
             android:tag="8"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="55dp"
-            app:backgroundTint="#FFC0CB"
+            app:backgroundTint="@color/black"
             tools:text="8" />
     </LinearLayout>
     <TextView
@@ -131,14 +132,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="30dp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_200"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:text="User Turn" />
+        tools:text="Your Turn" />
+
     <ImageView
         android:id="@+id/RestartGameBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
         android:layout_gravity="center"
         android:src="@drawable/reload"
         android:textStyle="bold" />
