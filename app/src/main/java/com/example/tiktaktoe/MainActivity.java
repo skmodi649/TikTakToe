@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     boolean gameActive = true;
     String player1="";
     String player2="";
+    ImageView reload;
 
     // Player representation
     // 0 - X
@@ -188,10 +189,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        reload = findViewById(R.id.reset);
         //Now we have to retrieve the player names from Details.java activity using the bundle or intent itself
         Intent intent=getIntent();
             player1 = intent.getStringExtra("key1");
             player2 = intent.getStringExtra("key2");
+
+
+        reload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gameReset(view);
+            }
+        });
     }
 }

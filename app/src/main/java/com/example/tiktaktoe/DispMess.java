@@ -17,6 +17,6 @@ public class DispMess extends AppCompatActivity {
         Intent intent=getIntent();
         String player2=intent.getStringExtra("jeet2");
         TextView textView=(TextView)findViewById(com.example.tiktaktoe.R.id.textView4);
-        textView.setText(player2);
+        textView.setText(player2+" Won!");
     }
 }

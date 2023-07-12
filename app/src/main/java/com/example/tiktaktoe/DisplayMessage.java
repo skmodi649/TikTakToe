@@ -17,6 +17,6 @@ public class DisplayMessage extends AppCompatActivity {
         Intent intent=getIntent();
         String player1=intent.getStringExtra("jeet1");
         TextView textView=(TextView)findViewById(com.example.tiktaktoe.R.id.textView3);
-        textView.setText(player1);
+        textView.setText(player1+" Won!");
     }
 }
