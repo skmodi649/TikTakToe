@@ -26,5 +26,12 @@ public class selection extends AppCompatActivity {
                 startActivity(new Intent(selection.this, Details.class));
             }
         });
+
+        playComputer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(selection.this, computerDetails.class));
+            }
+        });
     }
 }

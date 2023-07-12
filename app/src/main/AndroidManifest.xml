@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TikTakToe">
         <activity
+            android:name=".computerDetails"
+            android:exported="true" />
+        <activity
+            android:name=".computer"
+            android:exported="true" />
+        <activity
             android:name=".Details"
             android:exported="true" />
         <activity
